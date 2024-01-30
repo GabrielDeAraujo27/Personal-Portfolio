@@ -3,11 +3,12 @@ body {
 }
 nav {
     background-color: #333;
-    width: 100px;
+    width: 140px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: 0px 0px 10px 6px #000000;
 }
   nav ul {
     list-style-type: none;
@@ -50,18 +51,7 @@ div#profilePhoto{
     padding-left: 22vw;
     display: inline-block;
 }
+
 div#skills {
-    background-color: aliceblue;
-    padding-left: 10vw;
-    border-radius: 15px;
-    height: 40vh;
-}
-div#title {
-    background-color: #162b26;
-    height: 5vh;
-    margin-left: -5vw;
-}
-div#title > h2 {
-    margin-left: 10vw;
-    color: antiquewhite;
+    display: none;
 }
