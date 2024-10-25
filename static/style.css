@@ -208,3 +208,11 @@ i.menu-mobile {
         margin-right: 0;
     }
 }
+
+.card {
+    height: 35rem;
+}
+
+.card > img {
+    background-color: #040003;
+}
