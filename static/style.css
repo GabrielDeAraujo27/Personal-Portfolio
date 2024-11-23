@@ -145,7 +145,7 @@ i.menu-mobile {
     left: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1860px) {
 
     #header {
         left: -300px;
@@ -199,7 +199,15 @@ i.menu-mobile {
     margin-bottom: -35px;
 }
 
-@media (max-width: 1860) {
+.carousel-control-prev {
+    margin-left: -8rem;
+}
+
+.carousel-control-next {
+    margin-right: -8rem;
+}
+
+@media (max-width: 1024px) {
     .carousel-control-prev {
         margin-left: 0;
     }
@@ -215,4 +223,17 @@ i.menu-mobile {
 
 .card > img {
     background-color: #040003;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        margin-top: -1.2rem;
+        height: 20rem;
+    }
+    .card-body {
+        height: 10rem;
+    }
+    .card > img {
+        height: 10rem;
+    }
 }
