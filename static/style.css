@@ -225,6 +225,20 @@ i.menu-mobile {
     background-color: #040003;
 }
 
+#footer{
+  padding: 15px;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background-color: #021124;
+  transition: .3s;
+}
+
+
 @media (max-width: 1024px) {
     .card {
         margin-top: -1.2rem;
@@ -235,5 +249,17 @@ i.menu-mobile {
     }
     .card > img {
         height: 10rem;
+    }
+    #footer{
+        position: static;
+        width: auto;
+        padding: 20px 15px;
+    }
+    .cardContato {
+        height: 35rem;
+    }
+    .contatoTitle {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
     }
 }
