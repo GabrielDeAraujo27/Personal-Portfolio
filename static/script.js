@@ -3,6 +3,8 @@
 const menuMobile = document.querySelector('.menu-mobile')
 const body = document.querySelector('body')
 
+const header = document.querySelector('#header')
+    const home = document.querySelector('#home')
 menuMobile.addEventListener('click', () => {
     menuMobile.classList.contains("bi-list")
     ? menuMobile.classList.replace("bi-list", "bi-x")
@@ -20,3 +22,7 @@ navItem.forEach(item => {
         }
     })
 })
+
+function changeLanguage(){
+    home.innerHTML = '<i class="bi bi-house-door"></i>Home'
+}

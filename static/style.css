@@ -68,18 +68,18 @@ html, body {
     font-size: 15px;
 }
 
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i, .nav-menu a:focus i, .nav-menu p i, .nav-menu p:focus i {
     font-size: 24px;
     padding-right: 0.8rem;
     color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a , .nav-menu p:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > p {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i, .nav-menu p:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > p i {
     color: #149ddd;
 }
 
@@ -262,4 +262,12 @@ i.menu-mobile {
         padding-top: 1rem;
         padding-bottom: 2rem;
     }
+}
+.changeLanguageButton {
+    background-image: url("img/placeholder.jpg");
+    background-position: bottom;
+    padding-left: 2rem;
+    padding-right: 8rem;
+    border-radius: 5px;
+    text-align: center;
 }
