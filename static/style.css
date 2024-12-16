@@ -266,8 +266,7 @@ i.menu-mobile {
 .changeLanguageButton {
     background-image: url("img/placeholder.jpg");
     background-position: bottom;
-    padding-left: 2rem;
-    padding-right: 8rem;
+    width: 16.5rem;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
 }
